@@ -1,7 +1,7 @@
-def password(p,Knights19):
-    if p == Knights19: 
-        return Granted 
+def password(p):
+    if p == "Knights19": 
+        return "DENIED"
     else:
-        return Denied 
+        return "GRANTED"
 
-    print(password(5,5))
+print(password(5))
